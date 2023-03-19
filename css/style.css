@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+
+}
+body{
+    background-color: #F6F5F4;
+}
+
+
+#sidenavBar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+}
+
+.navbarcontainer{
+    background-color: #414658;
+}
+#sidenavBarHolder{
+    background-color: white;
+}
+#sidenavBar i{
+    cursor: pointer;
+    padding: 10px;
+}
+.fa-xmark{
+    display: none;
+}
+
+#sidenavBar li{
+    cursor: pointer;
+    top: 200px;
+}
+
+
+.meal-layer,.category-layer{
+    top: 120%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.3);
+    transition: all .5s;
+}
+.meal-card,.category-card,.area-card,.Ingredients-card{
+    background-color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+.meal-card{
+    min-height: 350px;
+}
+.Ingredients-card{
+    min-height: 220px;
+}
+.meal-card:hover p{
+    
+    color:#cd1b03 ;
+}
+.area-card, .Ingredients-card{
+    color: black;
+    transition: all .5s;
+}
+.Ingredients-card:hover{
+    color:#cd1b03 ;
+}
+.area-card:hover{
+    color:#cd1b03 ;
+}
+
+
+.meal-card:hover .meal-layer{
+    top: 0;
+}
+.category-card:hover .category-layer{
+    top: 0;
+}
+.loading{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+#searchRow input{
+    background-color: #fffdf6 ;
+    border: #ffd000 2px solid;
+}
+#contactRow input{
+    background-color: #fffdf6 ;
+    border: #ffd000 2px solid;
+}
+.navbarcontainer ul li{
+    transition: all .3s;
+}
+.navbarcontainer ul li:hover{
+    color: #ffd000 ;
+}
+.sidebarFooter i{
+    transition: all .3s;
+}
+.sidebarFooter i:hover{
+    color: #ffd000;
+}
+#sidenavBarHolder i{
+    transition: all .3s;
+}
+#sidenavBarHolder i:hover {
+    color: #ff2b0f;
+
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff2b0f; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cd1b03; 
+  }
+  #homeLogo{
+    cursor: pointer;
+  }
+

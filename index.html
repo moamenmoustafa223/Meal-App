@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Food App</title>
+</head>
+<body>
+  <div id="sidenavBar">
+
+    <div class="navbarcontainer bg-black text-white position-relative p-3 d-flex flex-column justify-content-between">
+     
+      <ul class="list-unstyled text-white fs-5   py-3">
+        <li class="mb-4 position-relative" id="Search">Search</li>
+        <li class="mb-4 position-relative" id="Categories">Categories</li>
+        <li class="mb-4 position-relative" id="Area">Area</li>
+        <li class="mb-4 position-relative" id="Ingredients">Ingredients</li>
+        <li class="mb-4 position-relative" id="Contact-US">Contact-US</li>
+      </ul>    
+      <div class="sidebarFooter">
+        <i class="fa-brands  fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-solid fa-globe"></i>
+        <p>Copyright Â© 2019 All Rights <br>
+          Reserved.</p>
+      </div>    
+
+    </div>
+    
+    <div id="sidenavBarHolder" class="d-flex flex-column justify-content-between shadow-lg align-items-center p-2 ">
+
+    
+        <img src="./images/logo.png" width="50px" id="homeLogo" alt="">
+     
+
+      <i class="fa-solid fa-bars  fa-2x"></i>
+      <i class="fa-sharp fa-solid fa-xmark  fa-2x "></i>
+      <div class="d-flex flex-column align-items-center" >
+        <i class="fa-solid fa-globe"></i>
+        <i class="fa-solid fa-share-nodes"></i>
+      </div>
+     
+    </div>
+   
+  </div>
+
+  <div class="loading position-fixed  bg-black">
+<div class="d-flex justify-content-center align-items-center h-100">
+  <i class="fa-solid fa-circle-notch fa-spin fs-1 text-white"></i>
+</div>
+  </div>
+
+  <section id="search" class="d-none">
+    <div class="container py-5 w-75 mx-auto" id="searchcontanier">
+      <div class="row" id="searchRow">
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="mealsSearchName" class="py-5 d-none">
+    <div class="container w-75 mx-auto p-3">
+      <div class="row g-3" id="mealRow">
+
+        
+      
+      </div>
+    </div>
+    
+      
+
+      
+    
+    
+
+  </section>
+
+  <section id="category" class="py-5 d-none ">
+    <div class="container w-75 mx-auto">
+      <div class="row  g-3" id="categoryRow">
+       
+      </div>
+    </div>
+    
+      
+
+      
+    
+    
+
+  </section>
+
+  <section id="area" class=" py-5 d-none">
+    <div class="container w-75 mx-auto">
+      <div class="row g-3 gy-5" id="areaRow">
+       
+      </div>
+    </div>
+
+  </section>
+
+  <section id="ingredients" class=" py-5 d-none">
+    <div class="container w-75 mx-auto">
+      <div class="row g-3 gy-5" id="ingredientRow">
+        
+        
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contactUs" class="py-4 d-flex justify-content-center align-items-center vh-100 w-75 mx-auto d-none ">
+    <div class="container text-center">
+      
+        <div id="contactRow" class="">
+         
+            
+            
+    </div>
+    </div>
+
+  </section>
+
+  <section id="mealDetails" class="py-5 d-none">
+    <div class="container text-white w-75 mx-auto">
+      <div class="row " id="detailsRow" >
+
+       
+      </div>
+    </div>
+
+  </section>
+  
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
